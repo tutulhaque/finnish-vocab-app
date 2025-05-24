@@ -92,7 +92,7 @@ function Flashcard() {
                 english: word.english,
                 example: word.example,
             });
-
+            // Refresh
             fetchWords();
             // Update local favorites state
             setFavorites((prev) => [...prev, word]);
